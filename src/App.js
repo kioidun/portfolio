@@ -5,10 +5,13 @@ import Home from "./components/ui/home/home";
 import About from "./components/ui/about/about";
 import Experience from "./components/ui/experience/experience";
 import Contact from "./components/ui/contact/contact";
+import Layout from "./components/Layout"
+import Navigation from './components/common/Navigation'
 
 function App() {
   return (
     <React.Fragment>
+      {/* <Navigation/> */}
       <Router>
         <Switch>
           <Route path="/" exact component={Home} />
